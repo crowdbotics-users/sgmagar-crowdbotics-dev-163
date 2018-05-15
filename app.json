@@ -1,0 +1,16 @@
+
+{
+  "name": "sgmagar-crowdbotics-dev-163",
+  "description": "This is repository for web app developed with django, built with Crowdbotics. https://crowdbotics.com and with features authorization",
+  "repository": "https://github.com/crowdbotics-users/sgmagar-crowdbotics-dev-163",
+  "keywords": ['web', 'authorization'],
+  "env": {
+    "DEBUG_COLLECTSTATIC": "1" 
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "scripts": {
+    "postdeploy": "./postdeploy.sh"
+  }
+}
